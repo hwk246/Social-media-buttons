@@ -1,0 +1,56 @@
+body {
+  overflow: hidden;
+}
+
+.fa-reddit-alien {
+  background-color: #FF4500;
+}
+
+.fa-twitter {
+  background-color: #00aced;
+}
+
+.fa-linkedin-in {
+  background-color: #007bb6;
+}
+
+.fa-facebook-f {
+  background-color: #3b5998;
+}
+
+.fa-github {
+  background-color: #333;
+}
+
+.social-media {
+  position: absolute;
+  top: 150px;
+  right: -280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.fa-brands {
+  color: #fff;
+  position: relative;
+  width: 300px;
+  padding: 10px;
+  -webkit-transition: all 600ms ease;
+  transition: all 600ms ease;
+}
+
+.fa-brands:hover {
+  -webkit-transform: translateX(-200px);
+          transform: translateX(-200px);
+}
+
+a {
+  color: #fff;
+  margin-left: 20px;
+}
+/*# sourceMappingURL=style.css.map */

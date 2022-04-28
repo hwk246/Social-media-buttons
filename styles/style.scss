@@ -1,0 +1,51 @@
+@import './variables';
+
+
+body {
+ overflow: hidden;
+}
+
+.fa-reddit-alien {
+ background-color: $reddit-color;
+}
+
+.fa-twitter {
+ background-color: $twitter-color;
+}
+
+.fa-linkedin-in {
+ background-color: $linkedin-color;
+}
+
+.fa-facebook-f {
+ background-color: $facebook-color;
+}
+
+.fa-github {
+ background-color: $github-color;
+}
+
+.social-media {
+ position: absolute;
+ top: 150px;
+ right: -280px;
+ display: flex;
+ flex-direction: column;
+}
+
+.fa-brands {
+ color: $text-color;
+ position: relative;
+ width: 300px;
+ padding: 10px;
+ transition: all 600ms ease;
+
+ &:hover {
+  transform: translateX(-200px);
+ }
+}
+
+ a {
+  color: $text-color;
+  margin-left: 20px;
+ }
